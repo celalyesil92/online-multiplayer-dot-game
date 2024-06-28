@@ -43,7 +43,7 @@ function gameLoop() {
     update();
     draw();
     requestAnimationFrame(gameLoop);
-}
+} 
 
 socket.on('currentPlayers', (serverPlayers) => {
     players = serverPlayers;
